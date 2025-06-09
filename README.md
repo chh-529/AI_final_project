@@ -24,7 +24,6 @@ AI_final_project/
 ### 2. Set the api key by the following command
 ```bash
 export OPENAI_API_KEY = <your api key>
-export GOOGLE_API_KEY = <your api key>
 ```
 ### 3. Run `Analysis_of_Illegal_Advertisements.ipynb`
 ### 4. Results will be saved in `final_project_results.csv` following the format:
