@@ -13,6 +13,7 @@ AI_final_project/
 ├── formatted_cases.txt                            # Formetted text version of the cases, preprocessed for embedding
 ├── final_project_query.csv                        # CSV file with input queries or ad samples to be analyzed
 ├── requirements.txt                               # Python dependencies required to run the project
+├── .env                                           # The api keys
 └── 法規及案例 Vector Stores/                       # Directory containing JSON files of legal rules and reference phrases
     ├── 13項保健功效及不適當功效延申例句之參考.json
     ├── 中藥成藥不適當共通性廣告詞句.json
@@ -20,11 +21,8 @@ AI_final_project/
 ```
 
 ## How to Use
-### 1. Install the required packages listed in `requirements.txt`.
-### 2. Set the api key by the following command
-```bash
-export OPENAI_API_KEY = <your api key>
-```
+### 1. Install the required packages listed in `requirements.txt`
+### 2. Add your OpenAI api key to `.env`
 ### 3. Run `Analysis_of_Illegal_Advertisements.ipynb`
 ### 4. Results will be saved in `final_project_results.csv` following the format:
 ```csv
