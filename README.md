@@ -1,9 +1,9 @@
 ## Analysis of Illegal Advertisements.
-The project aims to analyze a set of given advertisements related to health supplements, cosmetics, medicines, and medical devices to determine whether they violate relevant advertising regulations. We designed a Retrieval-Augmented Generation (RAG) system that embeds reference cases of illegal advertisements into a vector database. This setup allows the system to retrieve the most relevant cases for a given advertisement and evaluate its legality based on regulatory context and precedent cases. The embedding model (OpenAI) and the language model (Gemini) are accessed via API keys, enabling scalable and secure model inference.
+The project aims to analyze a set of given advertisements related to health supplements, cosmetics, medicines, and medical devices to determine whether they violate relevant advertising regulations. We designed a Retrieval-Augmented Generation (RAG) system that embeds reference cases of illegal advertisements into a vector database. This setup allows the system to retrieve the most relevant cases for a given advertisement and evaluate its legality based on regulatory context and precedent cases. The embedding model and the language model are accessed via OpenAI API keys, enabling scalable and secure model inference.
 
 ## Models
 - Embedding model (OpenAI): `text-embedding-3-large`
-- Language model:
+- Language model (OpenAI): `gpt-4.1`
 
 ## File Structure
 ```
